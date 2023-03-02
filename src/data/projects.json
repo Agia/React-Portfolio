@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Stripped Back Portfolio",
+    "image": "../assets/img/",
+    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
+    "skills": ["HTML", "CSS", "JS"]
+  },
+  {
+    "id": 2,
+    "name": "Bootstrap Portfolio",
+    "image": "/assets/img/",
+    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
+    "skills": ["HTML", "CSS", "JS"]
+  },
+  {
+    "id": 3,
+    "name": "Stripped Back Portfolio",
+    "image": "/assets/img/",
+    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
+    "skills": ["HTML", "CSS", "JS"]
+  },
+  {
+    "id": 4,
+    "name": "Stripped Back Portfolio",
+    "image": "/assets/img/",
+    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
+    "skills": ["HTML", "CSS", "JS"]
+  },
+  {
+    "id": 5,
+    "name": "Stripped Back Portfolio",
+    "image": "/assets/img/ss.png",
+    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
+    "skills": ["HTML", "CSS", "JS"]
+  }
+]
