@@ -1,13 +1,56 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/** FONTS **/
+
+
+/** VARIABLES **/
+/* :root {
+  --light1: #f9f5ff;
+  --light2: #ecead5; 
+  --light3: #f5f5f5;
+  --light4: #ebebeb;
+  --light5: #e0e0e0;
+  --dark1: #242424;
+  --dark2: #544e61;
+  --dark3: #28262c;
+  --dark4: #353535;
+  --dark5: #474747;
+  --dark6: #525252;
+  --dark7: #1f1f1f;
+  --highlight1: #37ff8b;
+  --highlight2: #51d6ff;
+  --highlight3: #fe5f55;
+  --muted1: #8d9ec6;
+  --muted1: #65524d;
+  --muted1: #817e9f;
+  --title: "Helvetica";
+  --body: "Menlo";
+} */
+
+
+/** RESET **/
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
 }
