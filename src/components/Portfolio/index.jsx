@@ -1,7 +1,7 @@
 import React from "react";
 import Project from "../Project";
 import projects from "../../data/projects.json";
-import "./style";
+import "./style.css";
 
 
 class Portfolio extends React.Component {
