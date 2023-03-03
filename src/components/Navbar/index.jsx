@@ -1,64 +1,64 @@
 import React from "react";
-import { NavLink} from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import "./style.css";
 
 const Navbar = () => {
-    return (
-            <ul className="nav nav-tabs">
+  return (
+    <nav>
+      <div className="logo">
+        
+        <Link to="/" className="logo-link">
+          <img src="../assets/img/logo.png" alt="<AA>" className="logo-img" />
+        </Link>
+      </div>
 
-                <li className="nav-item">
-                    <NavLink
-                        to="home"
-                        end
-                        className={({isActive}) =>
-                        isActive ? "nav-link active" : "nav-link"
-                    }
-                    />
-                    Home
-                </li>
+      <ul className="nav-list">
+        <li className="nav-item">
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="skills"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Skills
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="portfolio"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Portfolio
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="testimonials"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Testimonials
+          </NavLink>
+        </li>
+      </ul>
 
-                <li className="navItem">
-                    <NavLink
-                        to="skills"
-                        className={({isActive}) =>
-                        isActive ? "nav-link active" : "nav-link"
-                    }
-                    />
-                    Skills
-                </li>
-
-                <li className="navItem">
-                    <NavLink
-                        to="portfolio"
-                        className={({isActive}) =>
-                        isActive ? "nav-link active" : "nav-link"
-                    }
-                    />
-                    Portfolio
-                </li>
-
-                <li className="navItem">
-                    <NavLink
-                        to="testimonials"
-                        className={({isActive}) =>
-                        isActive ? "nav-link active" : "nav-link"
-                    }
-                    />
-                    Testimonials
-                </li>
-
-                <li className="navItem">
-                    <NavLink
-                        to="contact"
-                        className={({isActive}) =>
-                        isActive ? "nav-link active" : "nav-link"
-                    }
-                    />
-                    Contact
-                </li>
-
-            </ul>
-    );
-}
+    </nav>
+  );
+};
 
 export default Navbar;

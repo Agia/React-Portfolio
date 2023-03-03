@@ -14,9 +14,9 @@ const Project = (props) => {
                     <p>{props.description}</p>
                     <ul>
                     {
-                        props.skills.map(skill => {
+                        props.skills.map((skill, index) => {
                             return (
-                                <li className="skill-list-item">{skill}</li> 
+                                <li key={index} className="skill-list-item">{skill}</li> 
                             )
                         })
                     }
