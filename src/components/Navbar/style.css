@@ -1,14 +1,110 @@
+/** VARIABLES **/
+:root {
+    --light1: #f9f5ff;
+    --light2: #ecead5; 
+    --light3: #f5f5f5;
+    --light4: #ebebeb;
+    --light5: #e0e0e0;
+    --dark1: #242424;
+    --dark2: #544e61;
+    --dark3: #28262c;
+    --dark4: #353535;
+    --dark5: #474747;
+    --dark6: #525252;
+    --dark7: #1f1f1f;
+    --highlight1: #37ff8b;
+    --highlight2: #51d6ff;
+    --highlight3: #fe5f55;
+    --muted1: #8d9ec6;
+    --muted1: #65524d;
+    --muted1: #817e9f;
+    --title: "Helvetica";
+    --body: "Menlo";
+  }
+
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
+    height: 12vh;
+    background-color: aqua;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    z-index: 2;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    margin-left: 1rem;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: space-around;
+    display: none;
+
+    position: absolute;
+    width: 100%;
+    height: 88vh;
+    top: 12vh;
+    left: 0;
+    flex-direction: column;
 }
 
-/* .nav-item {
+.nav-item {
+    margin: 0;
+    text-align: center;
+}
+
+
+.active {
+    color: red;
+}
+
+.button-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: 1rem;
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    background-color: var(--dark1);
+    color: var(--light4);
+}
+
+.button-menu:hover {
+    background-color: var(--light4);
+}
+
+.expanded {
+    display: block;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    /* nav {
+        
+    } */
+
     
-} */
+
+    .nav-list {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 1rem;
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+    }
+
+    .nav-item {
+        margin: 0 1rem;
+    }
+
+    .button-menu {
+        display: none;
+    }
+}

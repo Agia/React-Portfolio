@@ -1,18 +1,29 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
+import { useState } from "react";
 import "./style.css";
 
 const Navbar = () => {
+
+    const [navExpanded, setNavExpanded] = useState(false);
+
   return (
     <nav>
       <div className="logo">
-        
         <Link to="/" className="logo-link">
           <img src="../assets/img/logo.png" alt="<AA>" className="logo-img" />
+          Alyssa Argento
         </Link>
       </div>
 
-      <ul className="nav-list">
+      <button className="button button-menu"
+                onClick={() => {
+                    setNavExpanded(!navExpanded);
+                }}>
+        Menu
+      </button>
+
+      <ul className={navExpanded ? "nav-list expanded" : "nav-list"}>
         <li className="nav-item">
           <NavLink
             to="/React-Portfolio/"
@@ -67,7 +78,6 @@ const Navbar = () => {
           </NavLink>
         </li>
       </ul>
-
     </nav>
   );
 };

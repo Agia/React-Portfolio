@@ -2,7 +2,7 @@
 
 
 /** VARIABLES **/
-/* :root {
+:root {
   --light1: #f9f5ff;
   --light2: #ecead5; 
   --light3: #f5f5f5;
@@ -23,7 +23,7 @@
   --muted1: #817e9f;
   --title: "Helvetica";
   --body: "Menlo";
-} */
+}
 
 
 /** RESET **/
@@ -53,4 +53,16 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px var(--dark1) solid;
+  padding: 0.7rem 1.3rem;
+  border-radius: 5%;
+}
+
+/** STYLES **/
+body {
+  background-color: var(--light4);
 }
