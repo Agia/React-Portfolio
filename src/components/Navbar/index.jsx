@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul className="nav-list">
         <li className="nav-item">
           <NavLink
-            to="/"
+            to="/React-Portfolio/"
             end
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
@@ -26,7 +26,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="skills"
+            to="/React-Portfolio/skills"
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
@@ -36,7 +36,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="portfolio"
+            to="/React-Portfolio/portfolio"
             className={({ isActive }) =>
               isActive ? "nav-link active" : "nav-link"
             }
@@ -53,6 +53,17 @@ const Navbar = () => {
             }
           >
             Testimonials
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="contact"
+            end
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Contact
           </NavLink>
         </li>
       </ul>

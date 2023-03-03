@@ -12,12 +12,12 @@ function App() {
   return (
       <Router>
               <Navbar />
-              <Routes basename='react-porfolio'>
-                  <Route path='/' element={<Home />} />
-                  <Route path='/react-porfolio/skills' element={<Skills />} />
-                  <Route path='/portfolio' element={<Portfolio />} />
-                  <Route path='/react-porfolio/testimonials' element={<Testimonials />} />
-                  <Route path='/react-porfolio/contact' element={<Contact />} />
+              <Routes basename='React-Portfolio'>
+                  <Route path='/React-Portfolio/' element={<Home />} />
+                  <Route path='/React-Portfolio/skills' element={<Skills />} />
+                  <Route path='/React-Portfolio/portfolio' element={<Portfolio />} />
+                  <Route path='/React-Portfolio/testimonials' element={<Testimonials />} />
+                  <Route path='/React-Portfolio/contact' element={<Contact />} />
               </Routes>
       </Router>
   );
