@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import "./style.css";
+import logo from "../../assets/img/logos/logo-AA.png";
+
 
 const Navbar = () => {
 
@@ -11,8 +13,8 @@ const Navbar = () => {
     <nav>
       <div className="logo">
         <Link to="/" className="logo-link">
-          <img src="../assets/img/logo.png" alt="<AA>" className="logo-img" />
-          Alyssa Argento
+          <img src={logo} alt="<AA>" className="logo-img" />
+          <span className="logo-name">Alyssa Argento</span>
         </Link>
       </div>
 
@@ -23,7 +25,8 @@ const Navbar = () => {
         Menu
       </button>
 
-      <ul className={navExpanded ? "nav-list expanded" : "nav-list"}>
+      <ul className={navExpanded ? "nav-list expanded" : "nav-list"}
+      >
         <li className="nav-item">
           <NavLink
             to="/React-Portfolio/"
