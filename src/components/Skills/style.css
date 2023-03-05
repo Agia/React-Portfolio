@@ -1,0 +1,24 @@
+#skills {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 7rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.skill svg {
+    font-size: 2rem;
+    color: #fe5f55;
+}

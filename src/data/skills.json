@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "HTML"
+    },
+    {
+        "id": 1,
+        "name": "CSS"
+    },
+    {
+        "id": 2,
+        "name": "Git"
+    },
+    {
+        "id": 3,
+        "name": "GitHub"
+    },
+    {
+        "id": 4,
+        "name": "JavaScript"
+    },
+    {
+        "id": 5,
+        "name": "Bootstrap"
+    },
+    {
+        "id": 6,
+        "name": "Debug Console"
+    },
+    {
+        "id": 7,
+        "name": "APIs"
+    },
+    {
+        "id": 8,
+        "name": "Jest"
+    },
+    {
+        "id": 9,
+        "name": "Node.js"
+    },
+    {
+        "id": 10,
+        "name": "NPM"
+    },
+    {
+        "id": 11,
+        "name": "React"
+    }
+]
