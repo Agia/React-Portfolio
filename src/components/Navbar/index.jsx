@@ -11,44 +11,52 @@ const Navbar = () => {
 
   const handleNavExpanded = () => {
     setNavExpanded(!navExpanded);
-    if (this.target.className === "button button-menu fas fa-bars") {
-        this.target.className = "button button-menu fas fa-cross";
-    } else {
-        this.target.className = "button button-menu fas fa-bars";
-    }
   }
 
   return (
     <nav className="navbar">
         <div className="container">
             <div className="logo">
-                <Link to="/" className="logo-link">
+                <Link to="/React-Portfolio/" className="logo-link">
                     <img src={logo} alt="<AA>" className="logo-img" />
                     <span className="logo-name">Alyssa Argento</span>
                 </Link>
             </div>
 
-        <button className="button button-menu fas fa-bars"
-                 onClick={handleNavExpanded}>
-            <span className="button-label">Menu</span>
+        <button  className="button button-menu"
+                 onClick={handleNavExpanded}
+                 >
+                    <i className={navExpanded ? "fa fa-times" : "fa fa-bars"}
+                 >
+                 </i>
         </button>
 
         <div className={`nav-list  ${navExpanded && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/React-Portfolio/">Home</NavLink>
+              <NavLink to="/React-Portfolio/"
+              onClick={() => setNavExpanded(false)}
+              >Home</NavLink>
             </li>
             <li>
-              <NavLink to="/React-Portfolio/skills">Skills</NavLink>
+              <NavLink to="/React-Portfolio/skills"
+              onClick={() => setNavExpanded(false)}
+              >Skills</NavLink>
             </li>
             <li>
-              <NavLink to="/React-Portfolio/portfolio">Portfolio</NavLink>
+              <NavLink to="/React-Portfolio/portfolio"
+              onClick={() => setNavExpanded(false)}
+              >Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="React-Portfolio/testimonials">Testimonials</NavLink>
+              <NavLink to="React-Portfolio/testimonials"
+              onClick={() => setNavExpanded(false)}
+              >Testimonials</NavLink>
             </li>
             <li>
-              <NavLink to="React-Portfolio/contact">Contact</NavLink>
+              <NavLink to="React-Portfolio/contact"
+              onClick={() => setNavExpanded(false)}
+              >Contact</NavLink>
             </li>
           </ul>
         </div>
