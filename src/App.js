@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Portfolio from './components/Portfolio';
 import Testimonials from "./components/Testimonials";
 import Skills from "./components/Skills";
@@ -11,7 +12,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
       <Router>
-              <Navbar />
+              <Header />
               <Routes basename='React-Portfolio'>
                   <Route path='/React-Portfolio/' element={<Home />} />
                   <Route path='/React-Portfolio/skills' element={<Skills />} />

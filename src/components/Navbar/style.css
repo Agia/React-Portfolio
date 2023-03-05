@@ -84,7 +84,7 @@ i {
   /* Width and border of side menu when visible */
   .nav-list.active {
     width: 60vw;
-    border-left: 2px #242424 solid;
+    border-left: 10px #28262c solid;
   }
 
   .nav-list ul {
