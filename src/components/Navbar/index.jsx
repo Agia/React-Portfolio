@@ -19,7 +19,7 @@ const Navbar = () => {
             <div className="logo">
                 <Link to="/React-Portfolio/" className="logo-link">
                     <img src={logo} alt="<AA>" className="logo-img" />
-                    <span className="logo-name">Alyssa Argento</span>
+                    <span className="logo-name">Alyssa <span className="logo-surname">Argento</span></span>
                 </Link>
             </div>
 
@@ -49,9 +49,9 @@ const Navbar = () => {
               >Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="React-Portfolio/testimonials"
+              <NavLink to="React-Portfolio/about"
               onClick={() => setNavExpanded(false)}
-              >Testimonials</NavLink>
+              >About</NavLink>
             </li>
             <li>
               <NavLink to="React-Portfolio/contact"

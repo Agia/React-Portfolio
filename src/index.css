@@ -16,6 +16,7 @@
   --dark5: #474747;
   --dark6: #525252;
   --dark7: #1f1f1f;
+  --hl: #ff3d2f;
   --hl1: #37ff8b;
   --hl2: #51d6ff;
   --hl3: #fe5f55;
@@ -25,6 +26,7 @@
   --heading: "Archivo Black";
   --body: "Quicksand";
   --mono: "Space Mono", "Roboto Mono";
+  --logo: "Fjalla One";
 }
 
 
@@ -76,7 +78,7 @@ h2 {
   padding: 2rem 1rem;
   font-size: 2.5rem;
   font-weight: 700;
-  text-decoration: underline 5px var(--hl3);
+  text-decoration: underline 10px var(--hl);
 }
 
 h3 {
@@ -102,106 +104,24 @@ button {
   padding: 0.9rem 1.5rem;
 }
 
-
-.button-menu:hover:after {
-  transform: translate(0, 0);
-}
-
-/* .button {
-  background-color: transparent;
-  border: 2px var(--dark1) solid;
-  padding: 0.7rem 1.3rem;
-  border-radius: 5%;
-} */
-
-/* ? Skewed button style */
-/* .button {
-  background-color: #3DD1E7;
-  border: 0 solid #242424;
-  color: #242424;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  text-align: center;
-  text-decoration: none #000000 solid;
-  text-decoration-thickness: auto;
-  width: 100%;
-  max-width: 250px;
-  position: relative;
-  transform: rotate(-2deg);
-}
-
-.button:focus {
-  outline: 0;
-}
-
-.button:after {
-  content: '';
-  position: absolute;
-  border: 2px solid #000000;
-  bottom: 5px;
-  left: 5px;
-  width: calc(100% - 1px);
-  height: calc(100% - 1px);
-}
-
-.button:hover:after {
-  bottom: 2px;
-  left: 2px;
-} */
-
-/* ? Rounded and bold shadow button style */
-/* 
-.button-menu {
-  align-items: center;
-  background-color: #e1e1e1;
-  border: 2px solid #111;
-  border-radius: 8px;
-  box-sizing: border-box;
-  color: #111;
-  cursor: pointer;
-  display: flex;
-  font-family: Inter,sans-serif;
-  font-size: 16px;
-  height: 48px;
-  justify-content: center;
-  line-height: 24px;
-  max-width: 100%;
-  padding: 0 25px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-menu:after {
-  background-color: #242424;
-  border-radius: 8px;
-  content: "";
-  display: block;
-  height: 48px;
-  left: 0;
-  width: 100%;
-  position: absolute;
-  top: -2px;
-  transform: translate(8px, 8px);
-  transition: transform .2s ease-out;
-  z-index: -1;
-}
-
-.button-menu:hover:after {
-  transform: translate(0, 0);
-} */
-
 .react-icons {
   vertical-align: middle;
 }
 
 .highlight {
-  background-color: var(--hl3);
+  background-color: var(--hl);
   font-weight: 700;
   color: var(--light);
   padding: 0 0.2rem;
+}
+
+.logo-name {
+  font-weight: 700;
+  text-transform: lowercase;
+  margin-right: 0.3rem;
+  color: var(--dark);
+}
+
+.logo-surname {
+  color: var(--hl);
 }
