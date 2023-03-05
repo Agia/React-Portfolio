@@ -1,37 +1,92 @@
 [
   {
+    "id": 0,
+    "name": "HTML/CSS Portfolio",
+    "image": "https://github.com/Agia/WebDev-Portfolio/raw/main/images/screenshot-website-fullscreen.jpeg",
+    "skills": ["HTML", "CSS", "Git"],
+    "description": "A portfolio utilising HTML and CSS, incorporating skills learned during the previous week, including Flexbox, CSS variables, media queries and deployment to GitHub Pages.",
+    "repo": "https://github.com/webdev-portfolio",
+    "deploy": "https://agia.github.io/webdev-portfolio/"
+  },
+  {
     "id": 1,
-    "name": "Stripped Back Portfolio",
-    "image": "../assets/img/",
-    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
-    "skills": ["HTML", "CSS", "JS"]
+    "name": "Bootstrap Portfolio",
+    "image": "/assets/img/",
+    "skills": ["HTML", "CSS", "Bootstrap"],
+    "description": "Another portfolio version, this time incorporating Bootstrap. The task was to remake the previous iteration utilising Bootstrap, which gave me an opportunity to improve upon the first version with new skills acquired, and deeper understanding of the core skills.",
+    "repo": "https://github.com/Bootstrap-Portfolio",
+    "deploy": "https://agia.github.io/Bootstrap-Portfolio/"
   },
   {
     "id": 2,
-    "name": "Bootstrap Portfolio",
+    "name": "Console Finances",
     "image": "/assets/img/",
-    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
-    "skills": ["HTML", "CSS", "JS"]
+    "skills": ["JS"],
+    "description": "Using JavaScript, and given a dataset composed of arrays containing two fields, `Date` and `Profit/Losses`, the code analyses the dataset, calculates the required tasks, and prints the results to the browser console. This tasks was to demonstrate ability with JavaScript fundamentals.",
+    "repo": "https://github.com/Console-Finances",
+    "deploy": "https://agia.github.io/Console-Finances/"
   },
   {
     "id": 3,
-    "name": "Stripped Back Portfolio",
+    "name": "Password Generator",
     "image": "/assets/img/",
-    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
-    "skills": ["HTML", "CSS", "JS"]
+    "skills": ["JS"],
+    "description": "A browser-based password generator, that prompts the user for choices, and outputs a randomized password based on those choices. This was to demonstrate intermediate Javascript skills.",
+    "repo": "https://github.com/Password-Generator",
+    "deploy": "https://agia.github.io/Password-Generator/"
   },
   {
     "id": 4,
-    "name": "Stripped Back Portfolio",
-    "image": "/assets/img/",
-    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
-    "skills": ["HTML", "CSS", "JS"]
+    "name": "Code Quiz",
+    "image": "/assets/img/ss.png",
+    "skills": ["JS", "HTML", "CSS", "WebAPI"],
+    "description": "A timed coding quiz, using multiple-choice questions that dynamically updatest the HTML and CSS using JavaScript, allowing the app to keep time and score, and adapt both based on user input. It also allows the user to save their score, and initials, at the conclusion of the quiz. Along with requiring more advanced JavaScript comfort than previous challenges, this challenge had a particular focus on demonstrating ability with Web APIs, such as localStorage and setInterval.",
+    "repo": "https://github.com/Code-Quiz",
+    "deploy": "https://agia.github.io/Code-Quiz/"
   },
   {
     "id": 5,
-    "name": "Stripped Back Portfolio",
+    "name": "Day Planner",
     "image": "/assets/img/ss.png",
-    "description": "When a user clicks the toggle, I want the theme on the page to change and the toggle to change with it. I added the imported setTheme() function and setTogClass() from the local state to a handleOnClick function. You can see where it is passed to the clickable part of the toggle in the JSX above.",
-    "skills": ["HTML", "CSS", "JS"]
+    "skills": ["JS", "HTML", "CSS", "jQuery", "APIs"],
+    "description": "A calendar app for scheduling your day. Running in the browser, dynamically updating HTML and CSS using JQuery, the user can input events by the hour, and save those inputs across sessions. The app also provides basic color-coding to indicate if an event is past, present or future, of the current time, A This challenge focused on demonstration of skills in DOM manipulation, advanced JavaScript and integration of third-party APIs.",
+    "repo": "https://github.com/Day-Planner",
+    "deploy": "https://agia.github.io/Day-Planner/"
+  },
+  {
+    "id": 6,
+    "name": "Weather Dashboard",
+    "image": "/assets/img/ss.png",
+    "skills": ["JS", "HTML", "CSS", "APIs"],
+    "description": "This challenge had a particular focus on demonstrating ability with Server APIs.",
+    "repo": "https://github.com/Weather-Dashboard",
+    "deploy": "https://agia.github.io/Weather-Dashboard/"
+  },
+  {
+    "id": 7,
+    "name": "Code Quiz",
+    "image": "/assets/img/ss.png",
+    "skills": ["JS", "HTML", "CSS"],
+    "description": "A timed coding quiz, using multiple-choice questions that dynamically updatest the HTML and CSS using JavaScript, allowing the app to keep time and score, and adapt both based on user input. It also allows the user to save their score, and initials, at the conclusion of the quiz. Along with requiring more advanced JavaScript comfort than previous challenges, this challenge had a particular focus on demonstrating ability with Web APIs, such as localStorage and setInterval.",
+    "repo": "https://github.com/Code-Quiz",
+    "deploy": "https://agia.github.io/Code-Quiz/"
+  },
+  {
+    "id": 8,
+    "name": "Code Quiz",
+    "image": "/assets/img/ss.png",
+    "skills": ["JS", "HTML", "CSS"],
+    "description": "A timed coding quiz, using multiple-choice questions that dynamically updatest the HTML and CSS using JavaScript, allowing the app to keep time and score, and adapt both based on user input. It also allows the user to save their score, and initials, at the conclusion of the quiz. Along with requiring more advanced JavaScript comfort than previous challenges, this challenge had a particular focus on demonstrating ability with Web APIs, such as localStorage and setInterval.",
+    "repo": "https://github.com/Code-Quiz",
+    "deploy": "https://agia.github.io/Code-Quiz/"
+  },
+  {
+    "id": 9,
+    "name": "Code Quiz",
+    "image": "/assets/img/ss.png",
+    "skills": ["JS", "HTML", "CSS"],
+    "description": "A timed coding quiz, using multiple-choice questions that dynamically updatest the HTML and CSS using JavaScript, allowing the app to keep time and score, and adapt both based on user input. It also allows the user to save their score, and initials, at the conclusion of the quiz. Along with requiring more advanced JavaScript comfort than previous challenges, this challenge had a particular focus on demonstrating ability with Web APIs, such as localStorage and setInterval.",
+    "repo": "https://github.com/Code-Quiz",
+    "deploy": "https://agia.github.io/Code-Quiz/"
   }
 ]

@@ -11,7 +11,8 @@ class Portfolio extends React.Component {
         return (
             <div id="portfolio">
                 <h2>Portfolio</h2>
-                <p>Below is a collection of things I've built so far.</p>
+                <p>A collection of things I've built so far:</p>
+                <div className="project-list">
                 {
                     this.state.projects.map(project => {
                         return (
@@ -25,6 +26,7 @@ class Portfolio extends React.Component {
                         )
                     })
                 }
+                </div>
             </div>
         )
     }

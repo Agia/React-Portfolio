@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
 import Header from "./components/Header";
 import Portfolio from './components/Portfolio';
-import Testimonials from "./components/About";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 
@@ -16,7 +16,7 @@ function App() {
                   <Route path='/React-Portfolio/' element={<Home />} />
                   <Route path='/React-Portfolio/skills' element={<Skills />} />
                   <Route path='/React-Portfolio/portfolio' element={<Portfolio />} />
-                  <Route path='/React-Portfolio/testimonials' element={<Testimonials />} />
+                  <Route path='/React-Portfolio/about' element={<About />} />
                   <Route path='/React-Portfolio/contact' element={<Contact />} />
               </Routes>
       </Router>

@@ -1,3 +1,9 @@
 #portfolio {
     z-index: -1;
 }
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
