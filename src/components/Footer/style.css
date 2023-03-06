@@ -1,0 +1,24 @@
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Menlo';
+    color: #ff3d2f;
+    padding: 0 1.5rem;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+.social-icons {
+    margin-right: 2rem;
+    display: flex;
+    width: 10rem;
+    justify-content: space-evenly;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    color: #ff3d2f;
+}
