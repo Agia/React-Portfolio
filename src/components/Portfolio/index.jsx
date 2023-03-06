@@ -12,7 +12,7 @@ class Portfolio extends React.Component {
             <div id="portfolio">
                 <h2>Portfolio</h2>
                 <p>A collection of things I've built, so far, from oldest to most recent:</p>
-                <p className="text-info">Hover on a project for more information, including links</p>
+                <p className="text-info">Hover (or poke) on a project for more information, including links</p>
                 <div className="project-list">
                 {
                     this.state.projects.map(project => {

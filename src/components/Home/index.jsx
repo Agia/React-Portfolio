@@ -5,7 +5,7 @@ import "./style.css";
 
 const Home = () => {
     return (
-        <div className="home">
+        <div id="home">
             <div className="intro">
               <h1>Hello! I'm <span className="fname">Alyssa</span> <span className="lname">Argento</span></h1>
               <p>Web Developer. Lifelong Learner.</p>
