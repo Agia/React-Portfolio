@@ -14,18 +14,18 @@ const Contact = () => {
             <div className="contact-content">
 
                 <div className="contact-links">
-                    <ul>
+                    <ul className="link-list">
                         <li>
-                            <a href="https://github.com/Agia">Agia</a>
                             <i><FaGithub /></i>
+                            <a href="https://github.com/Agia">GitHub</a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/alyssaargento">LinkedIn</a>
                             <i><FaLinkedin /></i>
+                            <a href="https://linkedin.com/alyssaargento">LinkedIn</a>
                         </li>
                         <li>
-                            <a href="mailto:agiaa@me.com">agiaa at me.com</a>
                             <i><FaEnvelope /></i>
+                            <a href="mailto:agiaa@me.com">Email</a>
                         </li>
                     </ul>
                 </div>

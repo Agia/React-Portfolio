@@ -91,6 +91,11 @@ button {
   font-weight: 700;
 }
 
+.button:hover {
+  color: var(--light);
+  background-color: var(--dark);
+}
+
 .react-icons {
   vertical-align: middle;
 }
