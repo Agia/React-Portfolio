@@ -7,13 +7,17 @@ import "./style.css"
 const About = () => {
     return (
         <div className="about">
+
             <h2>About</h2>
+
             <p className="bold">Hi! I'm Alyssa.</p>
+
             <p className="text-info">(Obligitory web dev greeting =))</p>
+
             <p>I'm relatively new to web development - just coming to the end of a 16-week Front End Web Development Bootcamp, with no experience prior to that. With that in mind, my <Link to="/React-Portfolio/portfolio"><span className="link-inline">portfolio</span></Link> is currently made up of projects based off challenges (weekly assignments), from that course, that were all to be completed within a ~4-5 days, and were graded based on explicit criteria. As such, I have no client testimonials to share, but I thought I would share some feedback snippets from TA's and Graders from the course, related to the challenges in the portfolio section.</p>
 
             <div className="testimonial-list">
-            <div className="testimonial">
+                <div className="testimonial">
                     <quote>
                         <FaQuoteLeft className="quote-l" />
                         <span className="quote-text">You absolutely nailed this assignment! (including) everything needed for a perfect repo...Awesome job with this assignment."</span>
@@ -82,7 +86,9 @@ const About = () => {
 
             <p>If you'd like to reach out for any reason, you can find links and details in the <Link to="/React-Portfolio/contact"><span className="link-inline">contact</span></Link> section. If you'd like to view / download a PDF of my resume / CV, you'll find a handy link below for just that purpose 👇 .</p>
 
-            <button className="resume">Resume</button>
+            <div className="resume">
+                <button className="button-resume">Resume</button>   
+            </div>
 
         </div>
     );

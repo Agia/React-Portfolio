@@ -1,6 +1,6 @@
 .about {
     margin-bottom: 4rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .testimonial-list {
@@ -40,4 +40,19 @@ quote {
 .link-inline {
     font-weight: 700;
     color: #ff3d2f
+}
+
+.resume {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.button-resume {
+    box-shadow: 5px 5px 0px 0px rgba(255,61,47);
+}
+
+.button-resume:hover {
+    color: #e1e1e1;
+    background-color: #28262c;
+    
 }

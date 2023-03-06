@@ -1,0 +1,40 @@
+.home {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem;
+    margin-top: -3rem;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    min-width: 20rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.fname {
+    color: #ff3d2f;
+
+}
+
+/** MEDIA QUERIES **/
+@media screen and (max-width: 784px) {
+    .home {
+        flex-direction: column;
+    }
+    .hero-img {
+        margin-left: -4rem;
+        margin-top: -8rem;
+    }
+
+    .intro {
+        margin-top: 2rem;
+    }
+}
