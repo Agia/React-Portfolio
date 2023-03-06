@@ -1,9 +1,22 @@
 #portfolio {
     z-index: -1;
+    margin-top: 1rem;
+    padding: 2rem 0;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
+
+.text-info {
+    font-family: "Menlo";
+    font-size: 0.7rem;
+    color: #ff3d2f;
 }
 
 .project-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 2rem;
 }

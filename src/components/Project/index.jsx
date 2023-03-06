@@ -1,8 +1,10 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { SiGithubpages } from "react-icons/si";
+// import { FaGithub } from "react-icons/fa";
+// import { SiGithubpages } from "react-icons/si";
 import "./style.css";
+// import img from "../../assets/img/projects/bootstrap-portfolio.png";
 
+// const images = require.context("../../assets/img/projects", true);
 
 const Project = (props) => {
     return (
@@ -25,9 +27,12 @@ const Project = (props) => {
                     <p>{props.description}</p>
 
                     <ul className="project-links">
-                        <li className="link-repo"><a href={props.repo}><FaGithub/><span className="link-text">REPO</span></a>
+                        <li className="link-repo">
+                            <a href={props.repo}>REPO</a>
                         </li>
-                        <li className="link-demo"><a href={props.deploy}><SiGithubpages /><span className="link-text">DEMO</span></a>
+                        <i className="fa fa-github icon-gh" aria-hidden="true"></i>
+                        <li className="link-demo">
+                            <a href={props.demo}>DEMO</a>
                         </li>
                     </ul>
                     
