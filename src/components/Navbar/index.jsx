@@ -7,7 +7,7 @@ import logo from "../../assets/img/logos/logo-AA.png";
 
 const Navbar = () => {
 
-    const [navExpanded, setNavExpanded] = useState(false);
+  const [navExpanded, setNavExpanded] = useState(false);
 
   const handleNavExpanded = () => {
     setNavExpanded(!navExpanded);
@@ -17,7 +17,7 @@ const Navbar = () => {
     <nav className="navbar">
         <div className="container">
             <div className="logo">
-                <Link to="/React-Portfolio/" className="logo-link">
+                <Link to="/" className="logo-link">
                     <img src={logo} alt="<AA>" className="logo-img" />
                     <span className="logo-name">Alyssa <span className="logo-surname">Argento</span></span>
                 </Link>
@@ -34,27 +34,27 @@ const Navbar = () => {
         <div className={`nav-list  ${navExpanded && 'active'}`}>
           <ul>
             <li>
-              <NavLink to="/React-Portfolio/"
+              <NavLink to="/"
               onClick={() => setNavExpanded(false)}
               >Home</NavLink>
             </li>
             <li>
-              <NavLink to="/React-Portfolio/skills"
+              <NavLink to="/skills"
               onClick={() => setNavExpanded(false)}
               >Skills</NavLink>
             </li>
             <li>
-              <NavLink to="/React-Portfolio/portfolio"
+              <NavLink to="/portfolio"
               onClick={() => setNavExpanded(false)}
               >Portfolio</NavLink>
             </li>
             <li>
-              <NavLink to="React-Portfolio/about"
+              <NavLink to="/about"
               onClick={() => setNavExpanded(false)}
               >About</NavLink>
             </li>
             <li>
-              <NavLink to="React-Portfolio/contact"
+              <NavLink to="/contact"
               onClick={() => setNavExpanded(false)}
               >Contact</NavLink>
             </li>

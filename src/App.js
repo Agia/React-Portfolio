@@ -15,11 +15,11 @@ function App() {
       <HashRouter>
               <Header />
               <Routes basename='React-Portfolio'>
-                  <Route path='/React-Portfolio/' element={<Home />} />
-                  <Route path='/React-Portfolio/skills' element={<Skills />} />
-                  <Route path='/React-Portfolio/portfolio' element={<Portfolio />} />
-                  <Route path='/React-Portfolio/about' element={<About />} />
-                  <Route path='/React-Portfolio/contact' element={<Contact />} />
+                  <Route path='/' element={<Home />} />
+                  <Route path='/skills' element={<Skills />} />
+                  <Route path='/portfolio' element={<Portfolio />} />
+                  <Route path='/about' element={<About />} />
+                  <Route path='/contact' element={<Contact />} />
               </Routes>
               <Footer />
       </HashRouter>
