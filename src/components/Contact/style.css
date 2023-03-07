@@ -39,6 +39,12 @@
     align-items: center;
 }
 
+.link-list li:hover {
+    color: #28262c;
+    background-color: #ff3d2f;
+    box-shadow: 5px 5px 0 0 #28262c;
+}
+
 .contact-links i {
     margin: 0 0.7rem;
     font-size: 1.3rem;
