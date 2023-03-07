@@ -1,9 +1,10 @@
+// Imports
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaQuoteLeft } from "react-icons/fa";
 import "./style.css"
 
-
+// Render about section
 const About = () => {
     return (
         <div id="about">

@@ -1,3 +1,4 @@
+/* Section container */
 #home {
     display: flex;
     height: 100vh;
@@ -9,6 +10,13 @@
     flex-wrap: wrap;
 }
 
+/* Positioning and size for avatar */
+/* .avatar {
+    width: 4rem;
+    margin: 0 auto;
+} */
+
+/* Text container */
 .intro {
     display: flex;
     flex-direction: column;
@@ -19,10 +27,18 @@ h1 {
     text-align: center;
 }
 
+/* First name */
 .fname {
     color: #ff3d2f;
 
 }
+
+/* Welcome text */
+.welcome {
+    font-weight: 700;
+    color: #ff3d2f;
+}
+
 
 /** MEDIA QUERIES **/
 @media screen and (max-width: 784px) {

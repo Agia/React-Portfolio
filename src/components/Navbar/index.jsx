@@ -1,18 +1,21 @@
+// Imports
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import "./style.css";
 import logo from "../../assets/img/logos/logo-AA.png";
 
-
+// Renders navbar componenet
 const Navbar = () => {
-
+  // Set initial state, and stores state for side menu
   const [navExpanded, setNavExpanded] = useState(false);
 
+  // Handles side menu by changing state based on boolean value
   const handleNavExpanded = () => {
     setNavExpanded(!navExpanded);
   }
 
+  // Render navbar component
   return (
     <nav className="navbar">
         <div className="container">

@@ -3,9 +3,10 @@
 <h1 align="center">React Portfolio</h1>
 
   <p align="center">
-    A remade, reimagined portfolio made using React as a single-page application, and to serve as a initial point of contact and a central demonstration of the skills learned so far. 
+    A restyled, restructured and rebuilt portfolio. This time using React. 
     <br />
-    <a href="https://agia.github.com/React-Portfolio/"><strong>View Demo</strong></a>
+    <h3><a href="https://agia.github.io/React-Portfolio/"><strong>View Demo</strong></a></h3>
+    <br />
   </p>
 
   <img src="https://img.shields.io/static/v1?label=LICENSE&message=MIT&color=orange&style=for-the-badge" />

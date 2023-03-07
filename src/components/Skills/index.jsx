@@ -1,3 +1,4 @@
+// Imports
 import React from "react";
 import { FaHtml5, FaGitSquare, FaGithub, FaBootstrap, FaNodeJs, FaReact, FaNpm} from "react-icons/fa";
 import { SiCsswizardry, SiJavascript, SiJest, SiCreatereactapp, SiTailwindcss, SiTypescript, SiRemix } from "react-icons/si";
@@ -6,12 +7,15 @@ import { TbApi } from "react-icons/tb";
 import "./style.css";
 import skills from "../../data/skills.json";
 
+// Array of icons
 const icons = [FaHtml5, SiCsswizardry, FaGitSquare, FaGithub, SiJavascript, FaBootstrap, VscDebugConsole, TbApi, SiJest, FaNodeJs, FaNpm, FaReact, SiCreatereactapp, ];
 
-
+// Class constructor for skills
 class Skills extends React.Component {
+    // Stores data from skills.json
     state = {skills};
 
+    // Renders skills section
     render() {
         return(
             <div id="skills">
@@ -32,24 +36,6 @@ class Skills extends React.Component {
                     })
                 }
                 </div>
-
-                {/* <p>I also have experience working with the following:</p>
-                <div className="skill-list-text">
-                    <ul>
-                        <li>Test-driven Development</li>
-                        <li>Behavior-driven Development</li>
-                        <li>UX Design</li>
-                        <li>DOM</li>
-                        <li>AJAX</li>
-                        <li>JSON</li>
-                        <li>jQuery</li>
-                        <li>Agile Development</li>
-                        <li>Object-Oriented Programming</li>
-                        <li>Refactoring</li>
-                        <li>Figma</li>
-                        <li></li>
-                    </ul>
-                </div> */}
 
                 <h3>Learning</h3>
                 <p>In addition focusing primarily on the <span className="highlight">continued development</span> of all of the above, here is a collection of technologies, frameworks, libraries and / or methodologies I am currently actively learning more about, and in some instances, creating small projects with, to continue to further my skillset:</p>

@@ -1,12 +1,15 @@
 import React from "react";
 import Project from "../Project";
+// Imports
 import projects from "../../data/projects.json";
 import "./style.css";
 
-
+// Class constructor for portfolio section
 class Portfolio extends React.Component {
+    // Stores data from projects.json
     state = {projects};
 
+    // Renders the portfolio section
     render() {
         return (
             <div id="portfolio">

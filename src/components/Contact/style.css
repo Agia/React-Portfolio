@@ -1,22 +1,25 @@
+/* Section container */
 #contact {
     margin-bottom: 4rem;
     padding: 2rem 0;
 }
 
+/* Contact description text */
 .contact-desc {
     margin: 2rem;
 }
 
+/* Contact buttons and Form container */
 .contact-content {
     margin: 2rem;
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
+/* Contact 'buttons' */
 .contact-links {
     display: flex;
     justify-content: center;
 }
+
 .contact-links li {
     margin: 2rem;
     display: flex;

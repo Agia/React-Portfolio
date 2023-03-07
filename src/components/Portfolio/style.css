@@ -1,13 +1,16 @@
+/* Section container */
 #portfolio {
     z-index: -1;
     margin-bottom: 4rem;
     padding: 2rem 0;
 }
 
+/* Header */
 h2 {
     margin-bottom: 2rem;
 }
 
+/* Container for projects */
 .project-list {
     display: flex;
     flex-wrap: wrap;

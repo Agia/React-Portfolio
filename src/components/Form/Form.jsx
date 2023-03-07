@@ -4,8 +4,9 @@ import 'react-toastify/dist/ReactToastify.min.css';
 import { useForm } from "react-hook-form";
 import "./style.css";
 
+// Renders form element for contact section
 const Form = () => {
-    // Creating potential states for Form component
+    // Creating states for Form component
     const {register, handleSubmit, reset, formState: { errors }} = useForm();
 
     // Handles user input on form submission
@@ -13,25 +14,21 @@ const Form = () => {
         // Destructing parameters needed to data
         const { name, email, message } = data;
 
-        // Used for testing local output
-        // console.log('Name: ', name);
-        // console.log('Email: ', email);
-        // console.log('Message: ', message);
-
-        // Try to assign input values to object
+        // Assign input values to object
         try {
             const templateParams = {
                 name, email, message
             };
             // Push data to email service
             await emailjs.send('service_thwefex', 'template_cvzz77v', templateParams, '4h6KAIdV5o-LMmyS5');
+            // Reset form
             reset();
             // If error, print error to console
         } catch (error) {
             console.log(error)
         }
     }
-    // Render to page
+    // Render form to page
     return(
             <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
                 <div className="name-section">

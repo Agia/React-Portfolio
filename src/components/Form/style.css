@@ -1,3 +1,4 @@
+/* Form container */
 #contact-form {
     display: flex;
     flex-direction: column;
@@ -16,11 +17,13 @@
     margin: 0.7rem 2rem;
 }
 
+/* Input labels */
 label {
     font-weight: 700;
     margin-bottom: 0.7rem;
 }
 
+/* Name and email input fields */
 input {
     height: 2.7rem;
     width: 300px;
@@ -31,12 +34,14 @@ input, textarea {
     padding: 1rem;
 }
 
+/* Message text area */
 textarea {
     resize: none;
     width: 300px;
     height: 150px;
 }
 
+/* Form submit button */
 .button-submit {
     margin: 1rem auto;
     padding: 1rem 3rem;

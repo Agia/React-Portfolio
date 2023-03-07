@@ -1,7 +1,9 @@
+// Imports
 import React from "react";
 import { FaGithub, FaEnvelope, FaLinkedin } from "react-icons/fa";
 import './style.css';
 
+// Renders the footer component
 const Footer = () => {
     return (
         <footer>

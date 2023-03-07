@@ -1,8 +1,10 @@
+/* Section container */
 #about {
     margin-bottom: 4rem;
     padding: 2rem 0;
 }
 
+/* Testimonials */
 .testimonial-list {
     display: flex;
     flex-wrap: wrap;
@@ -32,6 +34,7 @@ quote {
     max-width: 2rem;
 }
 
+/* Used for in-line section links */
 .bold {
     font-weight: 700;
     font-size: 2rem;
@@ -42,6 +45,7 @@ quote {
     color: #ff3d2f
 }
 
+/* Resume view/download 'button' */
 .resume {
     text-align: center;
     margin: 3rem auto;

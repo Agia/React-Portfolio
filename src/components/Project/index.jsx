@@ -1,11 +1,8 @@
+// Imports
 import React from "react";
-// import { FaGithub } from "react-icons/fa";
-// import { SiGithubpages } from "react-icons/si";
 import "./style.css";
-// import img from "../../assets/img/projects/bootstrap-portfolio.png";
 
-// const images = require.context("../../assets/img/projects", true);
-
+// Renders project component using props from Portfolio parent
 const Project = (props) => {
     return (
         <div className="project-card" key={props.id}>
@@ -24,7 +21,7 @@ const Project = (props) => {
                     </ul>
                 </div>
                 <div className="card-back">
-                    <p>{props.description}</p>
+                    <p className="project-desc" >{props.description}</p>
 
                     <ul className="project-links">
                         <li className="link-repo">

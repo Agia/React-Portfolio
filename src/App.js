@@ -1,7 +1,7 @@
+// Imports
 import React from 'react';
 import './App.css';
 import { HashRouter, Route, Routes } from 'react-router-dom';
-// import { HashRouter} from 'react-router-dom';
 import Home from './components/Home';
 import Header from "./components/Header";
 import Portfolio from './components/Portfolio';
@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/Footer"
 
+// Renders app
 function App() {
   return (
       <HashRouter>

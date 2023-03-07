@@ -1,9 +1,10 @@
+// Imports
 import React from "react";
 import Form from "../Form/Form.jsx";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import "./style.css";
 
-
+// Renders contact section
 const Contact = () => {
     return (
         <div id="contact">

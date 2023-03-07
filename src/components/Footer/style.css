@@ -1,3 +1,4 @@
+/* Section container */
 footer {
     width: 90vw;
     max-width: 1200px;
@@ -10,10 +11,12 @@ footer {
     margin: 0.5rem 1rem;
 }
 
+/* Footer text */
 footer p {
     font-size: 0.7rem;
 }
 
+/* Footer links / icons */
 .social-icons {
     display: flex;
     max-width: 10rem;
