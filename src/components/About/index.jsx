@@ -87,7 +87,7 @@ const About = () => {
             <p>If you'd like to reach out for any reason, you can find links and details in the <Link to="/React-Portfolio/contact"><span className="link-inline">contact</span></Link> section. If you'd like to view / download a PDF of my resume / CV, you'll find a handy link below for just that purpose 👇 .</p>
 
             <div className="resume">
-                <button className="button-resume">Resume</button>   
+                    <a className="link-resume" href="https://drive.google.com/file/d/1POLVYLyHQVzlefNGGvfvE2EgYOavELPu/view?usp=sharing">Resume</a> 
             </div>
 
         </div>

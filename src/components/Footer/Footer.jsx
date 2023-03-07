@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="social-icons">
                 <a href="mailto:agiaa@me.com"><FaEnvelope/></a>
                 <a href="https://github.com/Agia"><i><FaGithub /></i></a>
-                <a href="https://linkedin.com/alyssaargento"><i><FaLinkedin /></i></a>
+                <a href="https://linkedin.com/in/alyssaargento"><i><FaLinkedin /></i></a>
             </div>
 
         </footer>

@@ -21,7 +21,7 @@ const Contact = () => {
                         </li>
                         <li>
                             <i><FaLinkedin /></i>
-                            <a href="https://linkedin.com/alyssaargento">LinkedIn</a>
+                            <a href="https://linkedin.com/in/alyssaargento">LinkedIn</a>
                         </li>
                         <li>
                             <i><FaEnvelope /></i>

@@ -47,11 +47,15 @@ quote {
     margin: 3rem auto;
 }
 
-.button-resume {
-    box-shadow: 5px 5px 0px 0px rgba(255,61,47);
+.link-resume {
+    margin: 1rem auto;
+    padding: 1rem 3rem;
+    box-shadow: 5px 5px 0 0 #ff3d2f;
+    border: 3px #28262c solid;
+    font-weight: 700;
 }
 
-.button-resume:hover {
+.link-resume:hover {
     color: #e1e1e1;
     background-color: #28262c;
     
