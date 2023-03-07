@@ -79,6 +79,7 @@ p {
   text-align: center;
   margin: 1rem auto;
   font-size: 1.1rem;
+  line-height: 1.8rem;
 }
 
 
@@ -104,7 +105,8 @@ button {
   background-color: var(--hl);
   font-weight: 700;
   color: var(--light);
-  padding: 0 0.2rem;
+  padding: 0 0.3rem;
+  margin: 0.3rem 0.1rem;
 }
 
 .logo-name {

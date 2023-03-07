@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+// import { HashRouter} from 'react-router-dom';
 import Home from './components/Home';
 import Header from "./components/Header";
 import Portfolio from './components/Portfolio';
@@ -11,7 +12,7 @@ import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
-      <Router>
+      <HashRouter>
               <Header />
               <Routes basename='React-Portfolio'>
                   <Route path='/React-Portfolio/' element={<Home />} />
@@ -21,7 +22,7 @@ function App() {
                   <Route path='/React-Portfolio/contact' element={<Contact />} />
               </Routes>
               <Footer />
-      </Router>
+      </HashRouter>
   );
 }
 
