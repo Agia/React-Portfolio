@@ -50,7 +50,6 @@ A remade, reimagined and redesigned portfolio made as a single-page application,
 * [![Node][Node.js]][Node-url]
 * <img src="https://img.shields.io/badge/react-dodgerblue?style=for-the-badge&logo=react&logoColor=white" />
 * <img src="https://img.shields.io/badge/npm-ff0000?style=for-the-badge&logo=npm&logoColor=white" />
-* <img src="https://img.shields.io/badge/jest-blue?style=for-the-badge&logo=npm&logoColor=white" />
 
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
